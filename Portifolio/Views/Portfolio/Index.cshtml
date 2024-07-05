@@ -1,0 +1,13 @@
+@model PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Página principal";
+}
+
+<partial name="_Apresentacao"/>
+
+<partial name="_Experiencia"/>
+
+<partial name="_ProjetosAmostra" model="Model?.Projetos"/>
+
+

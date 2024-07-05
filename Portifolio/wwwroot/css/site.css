@@ -1,0 +1,65 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#foto{
+  
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+  margin: 2px;
+  border-radius: 50%;
+  background: 
+  radial-gradient(rgba(0,0,0,0.15) 60%, transparent 0),
+  radial-gradient(#000 68%, transparent 0),
+  linear-gradient(to top right, #f5f5f5 0%, #faf0e6 100%);
+
+
+}
+
+#foto{
+
+  width: 40%;
+  border-radius: 50%;
+} 
+
+#footer {
+  background: #fff;
+  padding-top: -300px;
+
+}
+
+#footer .socials-media ul {
+
+  transition: all .3 ease;
+
+  filter: brightness(0.8);
+}
+
+#footer .socials-media ul li {
+
+  transition: all .3 ease;
+
+  filter: brightness(0.8);
+    
+}
